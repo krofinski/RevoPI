@@ -1,0 +1,17 @@
+#1-Tilt angle allowed values between -30 and 30. In Degrees. If you want to use decimals, only 1 decimal is allowed
+#2-Rotation angle. In Degrees. If you want to use decimals, only 1 decimal is allowed
+#3-Rotation steps. Minimum value is '1'
+#4-Delay between rotation steps. Minimum value is '2'
+#5-Delay between steps
+#6-Rotation speed, in seconds per turn. Allowed values between 130 (slowest) and 36 (fastest)
+#7-Rotation reset. Values: a-'Partial' (return to the initial value in current round) b-'Total' (full reset), c-'None' (no action)
+#8-Tilt reset. Values: False/True
+#9-Scanning mode. 'C' for continous. Defect mode is "single shot"
+#
+-10,5,5,2,2,36,False,Partial,
+0,5,5,2,5,36,False,Partial,
+0,25,1,2,2,36,False,None,C
+#20,-5,7,2,10,20,False,None,
+#20,5,7,2,10,20,False,None,
+#30,-5,7,2,10,20,False,None,
+-10,3,2,2,5,60,True,Total,
